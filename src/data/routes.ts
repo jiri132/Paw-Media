@@ -5,15 +5,15 @@ export const availableRoutes : {path: string, name: string, icon?: string}[] = [
     {path: "/x", name: "404" }
 ];
 
-import paw from "../assets/images/logosite.png"
+import paw from "../assets/images/zonderbubbel.png"
 import ht from "../assets/images/hashtag.svg"
 import home from "../assets/images/homeIcon.svg"
 import profile from "../assets/images/profileIcon.svg"
-export const navbarButtons : {path?:string, name: string, icon?:string}[] = [
-    {name: "", icon: paw},
-    {name: "Home", icon: home},
-    {name: "Explore", icon: ht},
-    {name: "Profile", icon: profile}
+export const navbarButtons : {path:string, name: string, icon?:string}[] = [
+    {path: "/",name: "", icon: paw},
+    {path: "/",name: "Home", icon: home},
+    {path: "/explore",name: "Explore", icon: ht},
+    {path: "/profile",name: "Profile", icon: profile}
 ]
 
 
