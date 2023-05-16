@@ -8,6 +8,6 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-/prisma/dev.db
-/prisma/migrations
-/prisma/dev.db-journal
+dev.db
+migrations
+dev.db-journal
