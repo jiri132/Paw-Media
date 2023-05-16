@@ -1,14 +1,16 @@
-<script lang="ts">
+<script>
     import './+page.css'
     import '../app.css'
+
     import SideNav from '$lib/SideNav.svelte';
+	import RightNav from '$lib/RightNav.svelte';
 </script>
 
 <SideNav />
 
-<div class="right-nav">
 
-</div>
+
+<RightNav/>
 
 
 <slot />
