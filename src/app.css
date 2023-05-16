@@ -14,8 +14,13 @@
   -webkit-text-size-adjust: 100%;
 }
 */
+@font-face {
+  font-family: Kitten;
+  src: url("./assets/fonts/kitten.otf") format("opentype");
+}
+
 html {
-    font-family: "Inter", monospace !important;
+    font-family: "Kitten", monospace !important;
     background-color: #111 !important;
     color: #a0a0a0;
     overflow-x: hidden;
@@ -36,7 +41,7 @@ html {
     margin: 0;
     overflow-x: hidden;
   
-    font-family: "Inter", monospace !important;
+    font-family: "Kitten", monospace !important;
     color: #a0a0a0;
   }
 
