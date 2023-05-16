@@ -1,5 +1,6 @@
 <script lang="ts">
     import Counter from '../lib/Counter.svelte'
+    import Post from '../lib/Post.svelte'
     import SvelteKitLogo from '../assets/favicon.png'
     import ViteIcon from '../assets/vite.svg'
 </script>
@@ -15,7 +16,7 @@
     <div class="card">
       <Counter />
     </div>
-    
+    <Post/>   
 
     <h3>
       Documentation:
