@@ -1,5 +1,5 @@
 <script lang="ts">
-    import './+page.css'
+    import '../routes/+page.css'
     import '../app.css'
     import paw  from '../assets/images/logosite.png'
   import { navbarButtons, getCurrentRoute } from '../data/routes';
