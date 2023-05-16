@@ -6,7 +6,7 @@ import pfp from '../assets/images/pfp.jpg'
 </script>
 <div class="right-nav">
     <br>
-     <input type="text" placeholder="Search..">
+     <input type="text" placeholder="Meow...">
     <br>
     <div class="mightlike">
       <h1 style="color:black; padding-left:65px;">You might like</h1>
@@ -14,16 +14,32 @@ import pfp from '../assets/images/pfp.jpg'
         <div class="profiel"><img src="{pfp}"></div>
         <div class="username"><h2>The cool cat</h2><h3>@TheCoolCat</h3></div>
         <div class ="followbutton"><button>follow</button></div>
-  
-  
-  
-  
       </div>
-      
-  
-  
+      <div class="followsuggest">
+        <div class="profiel"><img src="{pfp}"></div>
+        <div class="username"><h2>The cool cat</h2><h3>@TheCoolCat</h3></div>
+        <div class ="followbutton"><button>follow</button></div>
+      </div>
     </div>
-    
+    <div class="mightlike">
+        <h1 style="color:black; padding-left:100px;">Trending</h1>
+        <div class="trend">
+            <div class = "topic"><p>Trending amongst kittens</p></div> 
+            <div class = "subject"><p>#MEOWWWWW</p></div> 
+            <div class = "tweets"><p>50k meows</p></div> 
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
   
   
   </div>
@@ -49,6 +65,7 @@ import pfp from '../assets/images/pfp.jpg'
   .followsuggest{
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
     }
   .profiel img{
     max-width: 48px;
@@ -68,4 +85,18 @@ import pfp from '../assets/images/pfp.jpg'
   .followbutton{
     padding-left: 20px;
   }
+  .trend{
+    flex-direction: column;
+    margin:0px;
+    }
+    .topic{
+        font-size: 15px;
+    }
+    .subject{
+        font-size:20px;
+        color:white;
+    }
+    .tweets{
+        font-size:15px;
+    }
   </style>
