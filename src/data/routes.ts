@@ -13,7 +13,7 @@ export const navbarButtons : {path:string, name: string, icon?:string}[] = [
     {path: "/",name: "MeowZone", icon: paw},
     {path: "/",name: "Home", icon: home},
     {path: "/explore",name: "Explore", icon: ht},
-    {path: "/profile",name: "Profile", icon: profile}
+    // {path: "/profile",name: "Profile", icon: profile}
 ]
 
 
