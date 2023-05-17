@@ -1,6 +1,7 @@
 <script lang=ts>
     import type { Post } from "@prisma/client";
     import p_img from "../../../../assets/images/user.png"
+    import pfp from "../../../../assets/images/pfp.jpg"
     import PostViewer from "$lib/Posts/PostViewer.svelte";
 
     export let name : string = "";
@@ -12,7 +13,11 @@
 <div class="profile-container">
 
     <div class="profile-data-container">
-        <img src={p_img} alt=" ">
+        {#if name === "The Cool Cat"}
+        <img src={pfp} alt=" ">
+        {:else}
+            <img src={p_img} alt=" ">
+        {/if}
         <div>
             <h1>{name}</h1>    
             <h3>@{identifier}</h3>            

@@ -1,5 +1,5 @@
 // src/routes/p/[id]/+page.server.ts
-import db from "$lib/database";
+import db from "$lib/server/database";
 import type { PageServerLoad } from './$types';
 
 // 1.

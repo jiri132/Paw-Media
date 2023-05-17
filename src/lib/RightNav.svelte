@@ -24,10 +24,10 @@ import pfp from '../assets/images/pfp.jpg'
 
     <div style="height:max-content;" class= "mightlike">
       <h1 style="color:white; padding-left:65px;">You might like</h1>
-      <a href="/OK" class="followsuggest">
+      <a href="/profile/TheCoolCat" class="followsuggest">
         <div class="profiel"><img src="{pfp}"></div>
         <div class="username"><h2>The cool cat</h2><h3>@TheCoolCat</h3></div>
-        <div class ="followbutton"><button>follow</button></div>
+        <!-- <div class ="followbutton"><button>follow</button></div> -->
       </a>
     </div>
 
@@ -35,17 +35,17 @@ import pfp from '../assets/images/pfp.jpg'
     <div class="mightlike">
       <h1 style="color:white; padding-left:100px;">Trending</h1>
       <div class="trendingtab">
-        <a href="/OK">
+        <a href="/profile/TheCoolCat">
             <div class="topic"><p>Trending amongst kittens</p></div> 
             <div class="subject"><p>#MEOWWWWW</p></div> 
-            <div class="tweets"><p>50k meows</p></div> 
+            <!-- <div class="tweets"><p>50k meows</p></div>  -->
         </a>
       </div> 
       <div class="trendingtab">   
-      <a href="/OK">
+      <a href="/profile/HelloKitties">
         <div class = "topic"><p>Trending amongst kittens</p></div> 
-        <div class = "subject"><p>#MEOWWWWW</p></div> 
-        <div class = "tweets"><p>50k meows</p></div> 
+        <div class = "subject"><p>#PRR</p></div> 
+        <!-- <div class = "tweets"><p>50k meows</p></div>  -->
       </a>
       </div>
     </div>
