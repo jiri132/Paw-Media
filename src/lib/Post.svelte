@@ -1,11 +1,15 @@
-<script>
+<script lang="ts">
+
+
+let content:string;
 
 </script>
   
-    <div>
-      <textarea class="tweet-input" placeholder="mow purrrr :3"></textarea>
-      <button class="tweet-button">paw</button>
-    </div>
+<div>
+    <textarea id="text" class="tweet-input" placeholder="mow purrrr :3" bind:value={content}></textarea>
+    <button  class="tweet-button">paw</button>
+</div>
+
   <style>
     .tweet-input {
       width: 100%;
