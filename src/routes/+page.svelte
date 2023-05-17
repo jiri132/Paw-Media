@@ -7,13 +7,11 @@
 </script>
 
 <main>
-
-    <PostViewer posts={data.feed}/>
-    
-
+  You don't have a following feed :(
 </main>
 
-<style>
-    
+<style lang="scss">
+  main {
+    text-align: center;
+  }
 </style>
-  
