@@ -1,15 +1,16 @@
 <script>
     import './+page.css'
     import '../app.css'
-  </script>
 
-<div class="left-nav">
+    import SideNav from '$lib/SideNav.svelte';
+	import RightNav from '$lib/RightNav.svelte';
+</script>
 
-</div>
-
-<div class="right-nav">
-
-</div>
+<SideNav />
 
 
-  <slot />
+
+<RightNav/>
+
+
+<slot />

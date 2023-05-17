@@ -1,18 +1,16 @@
 <script lang="ts">
     import PostViewer from '$lib/Posts/PostViewer.svelte';
 
-    import Post from '../lib/Post.svelte'
     import type { PageData } from './$types'
 
-  export let data: PageData
+    export let data: PageData
 </script>
-
 <main>
-  You don't have a following feed :(
+    <PostViewer posts={data.feed}/>
 </main>
-
 <style lang="scss">
-  main {
-    text-align: center;
-  }
-</style>
+    main {
+      text-align:start;
+    }
+  </style>
+  

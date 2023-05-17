@@ -5,6 +5,18 @@ export const availableRoutes : {path: string, name: string, icon?: string}[] = [
     {path: "/x", name: "404" }
 ];
 
+import paw from "../assets/images/zonderbubbel.png"
+import ht from "../assets/images/hashtag.svg"
+import home from "../assets/images/homeIcon.svg"
+import profile from "../assets/images/profileIcon.svg"
+export const navbarButtons : {path:string, name: string, icon?:string}[] = [
+    {path: "/",name: "MeowZone", icon: paw},
+    {path: "/",name: "Home", icon: home},
+    {path: "/explore",name: "Explore", icon: ht},
+    // {path: "/profile",name: "Profile", icon: profile}
+]
+
+
 const dom : string = "localhost"
 const port:string = ":5173"
 
