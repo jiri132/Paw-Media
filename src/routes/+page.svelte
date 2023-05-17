@@ -1,25 +1,17 @@
 <script lang="ts">
-    import Counter from '../lib/Counter.svelte'
+    import PostViewer from '$lib/Posts/PostViewer.svelte';
+
+    import type { PageData } from './$types'
+
+  export let data: PageData
 </script>
 
 <main>
-    
-    <h1>Paw Media</h1>
-    
-    <h2>
-        Media application for Kittens and Cats
-    </h2>
-    <h3>
-      Meow MEEOW meow pr pr meow meeooww
-    </h3>
-
-    <div class="card">
-      <Counter />
-    </div>
-
+  You don't have a following feed :(
 </main>
 
-<style>
-    
+<style lang="scss">
+  main {
+    text-align: center;
+  }
 </style>
-  
