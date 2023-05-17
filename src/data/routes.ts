@@ -11,10 +11,10 @@ import home from "../assets/images/homeIcon.svg"
 import profile from "../assets/images/profileIcon.svg"
 export const navbarButtons : {path:string, name: string, icon?:string}[] = [
     {path: "/",name: "MeowZone", icon: paw},
-    {path: "/",name: "Home", icon: home},
-    {path: "/explore",name: "Explore", icon: ht},
+    {path: "/",name: "Homeow", icon: home},
+    {path: "/explore",name: "Exploreow", icon: ht},
     // {path: "/profile",name: "Profile", icon: profile}
-]
+    ]
 
 
 const dom : string = "localhost"

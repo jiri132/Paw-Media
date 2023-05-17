@@ -11,10 +11,10 @@
 <div class="post-container">
     {#each posts as post, i}
     <PostCard
-        title={post.title}
         content={post.content}
         author={post.author_display}
         authorId={post.author_identifier}
+        createdAt={post.createdAt}
     />
     {/each}
 
