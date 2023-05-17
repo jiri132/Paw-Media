@@ -69,8 +69,8 @@ import pfp from '../assets/images/pfp.jpg'
   border: 3px solid rgb(31, 38, 31);
   margin: 50px;
   border-radius: 35px;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  //overflow-y: scroll;
+  //overflow-x: hidden;
   }
 
   .followsuggest{
