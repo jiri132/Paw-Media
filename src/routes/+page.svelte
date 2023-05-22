@@ -49,9 +49,10 @@
 <style lang="scss">
   form {
     padding-bottom: 10px;
-    border-bottom: 2px solid red;
+    border-bottom: 4px solid #222;
   }
   .no-feed {
+    margin-top: 10px;
     text-align: center;
   }
   .tweet-input {

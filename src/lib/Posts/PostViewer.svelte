@@ -21,7 +21,6 @@
 </div>
 <style lang="scss">
     .post-container {
-        overflow-y: scroll;
-        max-height: 75vh;
+        // overflow-y: scroll;
     }
 </style>
